@@ -11,4 +11,8 @@ public class BaseClass {
 		System.out.println("this is my base class");
 	}
 
+	public static void baseClassmethod1() {
+		System.out.println("this is my base class1");
+	}
+
 }
