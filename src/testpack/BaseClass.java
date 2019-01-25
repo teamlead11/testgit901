@@ -15,4 +15,10 @@ public class BaseClass {
 		System.out.println("this is my base class1");
 	}
 
+	
+	public static void baseClassmethod1() {
+		System.out.println("this is my base class4");
+	}
+	
+	
 }
