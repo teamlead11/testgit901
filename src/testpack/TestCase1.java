@@ -4,11 +4,12 @@ public class TestCase1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		test1();
+		karty();
 	}
 
-	public static void test1(){
+	public static void karty(){
 		
-		System.out.println("this is my test case1");
+		System.out.println("This is karty");
+		System.out.println("Modified the testcase from USER@");
 	}
 }
