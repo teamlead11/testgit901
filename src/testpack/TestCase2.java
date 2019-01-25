@@ -8,5 +8,5 @@ public class TestCase2 {
 
 	public static void test3(){
 			System.out.println("this is my test case3");
-		
+			System.out.println("New line for Test");
 	}}
