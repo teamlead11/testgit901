@@ -8,6 +8,6 @@ public class TestCase4 {
 	}
 
 	public static void newTestCase() {
-		System.out.println("added some test case");
+		System.out.println("added some test case with changes");
 	}
 }
