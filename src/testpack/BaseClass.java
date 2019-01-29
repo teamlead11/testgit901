@@ -7,6 +7,8 @@ public class BaseClass {
 		baseClassmethod();
 		BaseClass b = new BaseClass();
 		b.add(4, 5);
+		b.add(1, 2, 3);
+
 	}
 
 	public static void baseClassmethod() {
@@ -19,5 +21,9 @@ public class BaseClass {
 
 	public void add(int a, int b) {
 		System.out.println(a + b);
+	}
+
+	public void add(int a, int b, int c) {
+		System.out.println(a + b + c);
 	}
 }
