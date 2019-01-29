@@ -1,5 +1,8 @@
 package testpack;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
@@ -8,6 +11,8 @@ public class BaseClass {
 		BaseClass b = new BaseClass();
 		b.add(4, 5);
 		b.add(1, 2, 3);
+		b.arraySortByKarty();
+		
 
 	}
 
@@ -25,5 +30,13 @@ public class BaseClass {
 
 	public void add(int a, int b, int c) {
 		System.out.println(a + b + c);
+	}
+	
+	public void arraySortByKarty() {
+		
+		int[] i= {1,78,3,100,5,7,0};
+		Arrays.sort(i);
+		System.out.println(Arrays.toString(i));
+						
 	}
 }
