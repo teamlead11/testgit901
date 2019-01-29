@@ -9,10 +9,11 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		baseClassmethod();
 		BaseClass b = new BaseClass();
+		b.arraySortByKarty();
 		b.add(4, 5);
 		b.add(1, 2, 3);
-		b.arraySortByKarty();
-		
+		b.add(4, 6, 7, 8);
+
 
 	}
 
@@ -23,6 +24,10 @@ public class BaseClass {
 	public static void baseClassmethod1() {
 		System.out.println("this is my base class1");
 	}
+	
+	public static void baseClassVinoth() {
+		System.out.println("this is my base class2");
+	}
 
 	public void add(int a, int b) {
 		System.out.println(a + b);
@@ -31,12 +36,21 @@ public class BaseClass {
 	public void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
-	
-	public void arraySortByKarty() {
+public void arraySortByKarty() {
 		
 		int[] i= {1,78,3,100,5,7,0};
 		Arrays.sort(i);
 		System.out.println(Arrays.toString(i));
 						
 	}
+	
+
+	public void add(int a, int b, int c, int d) {
+		System.out.println(a + b + c + d);
+	}
+	
+	
+	
+
 }
+
