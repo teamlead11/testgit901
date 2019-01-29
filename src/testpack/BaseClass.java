@@ -1,14 +1,19 @@
 package testpack;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		baseClassmethod();
 		BaseClass b = new BaseClass();
+		b.arraySortByKarty();
 		b.add(4, 5);
 		b.add(1, 2, 3);
 		b.add(4, 6, 7, 8);
+
 
 	}
 
@@ -31,12 +36,21 @@ public class BaseClass {
 	public void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
+public void arraySortByKarty() {
+		
+		int[] i= {1,78,3,100,5,7,0};
+		Arrays.sort(i);
+		System.out.println(Arrays.toString(i));
+						
+	}
 	
+
 	public void add(int a, int b, int c, int d) {
 		System.out.println(a + b + c + d);
 	}
 	
 	
 	
+
 }
 
