@@ -8,6 +8,7 @@ public class BaseClass {
 		BaseClass b = new BaseClass();
 		b.add(4, 5);
 		b.add(1, 2, 3);
+		b.add(4, 6, 7, 8);
 
 	}
 
@@ -18,6 +19,10 @@ public class BaseClass {
 	public static void baseClassmethod1() {
 		System.out.println("this is my base class1");
 	}
+	
+	public static void baseClassVinoth() {
+		System.out.println("this is my base class2");
+	}
 
 	public void add(int a, int b) {
 		System.out.println(a + b);
@@ -26,4 +31,12 @@ public class BaseClass {
 	public void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
+	
+	public void add(int a, int b, int c, int d) {
+		System.out.println(a + b + c + d);
+	}
+	
+	
+	
 }
+
