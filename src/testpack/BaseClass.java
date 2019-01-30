@@ -44,17 +44,20 @@ public void arraySortByKarty() {
 
 	public void add(int a, int b, int c, int d) {
 		System.out.println(a + b + c + d);
-		
-		
-	
-		
-		
+				
 	}
 		public void sorting() {
 			int[] i= {66,22,77,44,55,11,33};
 			Arrays.sort(i);
 			System.out.println(Arrays.toString(i));
-			}
+		}
+		public void arraySortByBidisha() {
+			
+			int[] i= {1,8,3,90,9,7,0};
+			Arrays.sort(i);
+			System.out.println(Arrays.toString(i));						
+		}	
+		
 	}
 
 
