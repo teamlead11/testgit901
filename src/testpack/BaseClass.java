@@ -5,6 +5,8 @@ public class BaseClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		baseClassmethod();
+		baseClassmethod1();
+		baseClassmethodBasha();
 	}
 
 	public static void baseClassmethod() {
