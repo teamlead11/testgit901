@@ -53,9 +53,9 @@ public void arraySortByKarty() {
 		}
 		public void arraySortByBidisha() {
 			
-			int[] i= {1,8,3,90,9,7,0};
-			Arrays.sort(i);
-			System.out.println(Arrays.toString(i));						
+			int[] num= {1,8,3,90,9,7,0};
+			Arrays.sort(num);
+			System.out.println(Arrays.toString(num));						
 		}	
 		
 	}
