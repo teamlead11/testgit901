@@ -53,6 +53,7 @@ public void arraySortByKarty() {
 		}
 		public void arraySortByBidisha() {
 			
+<<<<<<< HEAD
 			int[] i= {1,8,3,90,9,7,0};
 			Arrays.sort(i);
 			System.out.println(Arrays.toString(i));						
@@ -62,6 +63,11 @@ public void arraySortByKarty() {
 			int[] k= {20,10,5,90,50,30};
 			Arrays.sort(k);
 			System.out.println("Array Is:" + Arrays.toString(k));						
+=======
+			int[] num= {1,8,3,90,9,7,0};
+			Arrays.sort(num);
+			System.out.println(Arrays.toString(num));						
+>>>>>>> 3f31e5c4de0b51f2eecc4d374d6f7a4a314d379a
 		}	
 		
 	}
