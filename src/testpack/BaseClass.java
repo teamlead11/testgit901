@@ -68,7 +68,6 @@ public void arraySortByKarty() {
 			Arrays.sort(num);
 			System.out.println(Arrays.toString(num));		
 			
-	
 		}
 		
 		public void jacky() {
@@ -78,10 +77,15 @@ public void arraySortByKarty() {
 			System.out.println(Arrays.toString(y));
 
 		}
-		
-		
-		
-	}
+								
+
+			public void arraySortByRajesh() {
+			
+			int[] i= {1,78,3,100,5,7,0};
+			Arrays.sort(i);
+			System.out.println(Arrays.toString(i));						
+		}
+			}
 
 
 
