@@ -1,4 +1,4 @@
-``package testpack;
+package testpack;
 import java.util.Arrays;
 
 public class BaseClass {
@@ -12,6 +12,7 @@ public class BaseClass {
 		b.add(1, 2, 3);
 		b.add(4, 6, 7, 8);
 		b.sorting();
+		b.jacky();
 		baseClassmethod1();
 			}
        public static void baseClassmethod() {
@@ -51,9 +52,9 @@ public void arraySortByKarty() {
 			Arrays.sort(i);
 			System.out.println(Arrays.toString(i));
 		}
+		
 		public void arraySortByBidisha() {
 			
-<<<<<<< HEAD
 			int[] i= {1,8,3,90,9,7,0};
 			Arrays.sort(i);
 			System.out.println(Arrays.toString(i));						
@@ -63,20 +64,28 @@ public void arraySortByKarty() {
 			int[] k= {20,10,5,90,50,30};
 			Arrays.sort(k);
 			System.out.println("Array Is:" + Arrays.toString(k));						
-=======
 			int[] num= {1,8,3,90,9,7,0};
 			Arrays.sort(num);
-			System.out.println(Arrays.toString(num));						
->>>>>>> 3f31e5c4de0b51f2eecc4d374d6f7a4a314d379a
-		}	
-	
-		public void arraySortByRajesh() {
+			System.out.println(Arrays.toString(num));		
+			
+		}
+		
+		public void jacky() {
+			int[] y= {1,200,3,100,9,7,120};
+			Arrays.sort(y);
+			System.out.println("output of jacky");
+			System.out.println(Arrays.toString(y));
+
+		}
+								
+
+			public void arraySortByRajesh() {
 			
 			int[] i= {1,78,3,100,5,7,0};
 			Arrays.sort(i);
 			System.out.println(Arrays.toString(i));						
 		}
-	}
+			}
 
 
 
