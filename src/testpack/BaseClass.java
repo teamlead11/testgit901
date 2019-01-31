@@ -69,7 +69,13 @@ public void arraySortByKarty() {
 			System.out.println(Arrays.toString(num));						
 >>>>>>> 3f31e5c4de0b51f2eecc4d374d6f7a4a314d379a
 		}	
-		
+	
+		public void arraySortByRajesh() {
+			
+			int[] i= {1,78,3,100,5,7,0};
+			Arrays.sort(i);
+			System.out.println(Arrays.toString(i));						
+		}
 	}
 
 
